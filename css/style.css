@@ -23,6 +23,10 @@ a {
   color: inherit;
 }
 
+ul {
+  list-style: none;
+}
+
 .container {
   max-width: 1180px;
   padding-left: 10px;
@@ -46,9 +50,6 @@ a {
   gap: 20px;
 }
 
-.menu__list-item {
-}
-
 .menu__list-link {
   text-transform: uppercase;
 }
@@ -64,4 +65,30 @@ a {
   height: 20px;
   left: -23px;
   top: -3px;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+}
+
+.email {
+  margin: 17px 0;
+}
+
+.footer__social {
+  display: flex;
+  gap: 15px;
 }
