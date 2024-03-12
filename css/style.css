@@ -92,3 +92,49 @@ ul {
   display: flex;
   gap: 15px;
 }
+
+@media (max-width: 1000px) {
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 10px;
+  }
+  .container {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .menu__list {
+    display: none;
+  }
+}
+
+/* @media (max-width: 900px) {
+  .footer__inner {
+    flex-wrap: wrap;
+  }
+  .footer__contacts {
+    width: 100%;
+    align-items: center;
+    padding-top: 15px;
+  }
+  .phone::before {
+    width: 14px;
+    height: 14px;
+    left: -16px;
+    top: -2px;
+    background-size: cover;
+  }
+} */
