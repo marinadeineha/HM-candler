@@ -120,7 +120,7 @@ button {
 
 .top__buy {
   background: #ffbd59;
-  padding: 18px 54px;
+  padding: 20px 46px;
   font-family: "Comfortaa", sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -169,6 +169,11 @@ button {
     padding: 95px 0 70px;
   }
 
+  .top__text {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
   .top__img-l {
     width: 655px;
   }
@@ -201,8 +206,30 @@ button {
     font-size: 10px;
   }
   .container {
-    padding-left: 64px;
-    padding-right: 64px;
+    max-width: 640px;
+  }
+
+  .top__content {
+    width: 230px;
+  }
+
+  .top__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .top__text {
+    font-size: 10px;
+    margin-top: 20px;
+    line-height: 150%;
+  }
+
+  .top__img {
+    left: 180px;
+  }
+
+  .top__buy {
+    padding: 15px 31px;
   }
 }
 
