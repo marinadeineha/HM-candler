@@ -158,6 +158,8 @@ button {
   gap: 15px;
 }
 
+/*                                                      MEDIA 1000px */
+
 @media (max-width: 1000px) {
   .container {
     padding-right: 20px;
@@ -183,6 +185,8 @@ button {
   }
 }
 
+/*                                                       MEDIA 900px */
+
 @media (max-width: 900px) {
   .footer__inner {
     flex-wrap: wrap;
@@ -201,6 +205,8 @@ button {
   }
 }
 
+/*                                                       MEDIA 768px */
+
 @media (max-width: 768px) {
   body {
     font-size: 10px;
@@ -211,6 +217,7 @@ button {
 
   .top__content {
     width: 230px;
+    padding: 100px 0 124px;
   }
 
   .top__title {
@@ -232,6 +239,8 @@ button {
     padding: 15px 31px;
   }
 }
+
+/*                                                          MEDIA 640px */
 
 @media (max-width: 640px) {
   .container {
@@ -267,6 +276,8 @@ button {
   }
 }
 
+/*                                                             MEDIA 500px */
+
 @media (max-width: 500px) {
   .footer__inner {
     flex-direction: column;
@@ -284,5 +295,70 @@ button {
 
   .footer__menu-list {
     flex-direction: column;
+  }
+}
+
+/*                                                             MEDIA 480px */
+
+@media (max-width: 480px) {
+  .top {
+    padding: 30px 0 50px;
+  }
+
+  .top__content {
+    width: 180px;
+    padding: 80px 0 80px;
+  }
+
+  .top__img-l {
+    width: 309px;
+    height: 309px;
+  }
+
+  .top__img {
+    left: 167px;
+  }
+
+  .top__title {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .top__text {
+    font-size: 8px;
+    margin-bottom: 15px;
+  }
+
+  .top__buy {
+    font-size: 10px;
+    padding: 11px 23px;
+  }
+}
+
+/*                                                           MEDIA 3600px */
+
+@media (max-width: 360px) {
+  .top__content {
+    width: 203px;
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+
+  .top__title {
+    font-size: 18px;
+  }
+
+  .top__text {
+    font-size: 10px;
+    line-height: normal;
+  }
+
+  .top__img {
+    left: 209px;
+  }
+
+  .top__img-l {
+    width: 113px;
+    height: 151px;
   }
 }
