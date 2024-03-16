@@ -134,7 +134,7 @@ button {
 
 .about {
   background-color: #a5978e;
-  padding: 50px 0 60px;
+  padding: 50px 0;
   color: #fafafa;
 }
 
@@ -142,26 +142,56 @@ button {
   display: flex;
   align-items: center;
 }
+
 .about__content {
-  width: 370px;
+  min-width: 370px;
 }
+
 .about__title {
   font-size: 40px;
   margin-bottom: 15px;
 }
+
 .about__text {
   margin-bottom: 15px;
 }
+
 .about__list {
   display: flex;
   align-items: center;
   gap: 20px;
+  padding-left: 110px;
+  padding-bottom: 48px;
+  position: relative;
+  flex-basis: 930px;
 }
-.about__item {
+
+.about__list::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url(../images/about-decor.png);
+  width: 22px;
+  height: 30px;
 }
+
+.about__list::after {
+  content: "";
+  position: absolute;
+  left: 22px;
+  bottom: 13px;
+  width: 1000%;
+  height: 1px;
+  background-color: #7b6152;
+}
+
 .about__item-img {
+  margin-bottom: 10px;
 }
+
 .about__item-text {
+  font-size: 11px;
 }
 
 .footer {
@@ -214,6 +244,14 @@ button {
 
   .top__img {
     left: 300px;
+  }
+
+  .about__content {
+    min-width: 300px;
+  }
+
+  .about__list {
+    padding-left: 20px;
   }
 }
 
@@ -269,6 +307,31 @@ button {
 
   .top__buy {
     padding: 15px 31px;
+  }
+
+  .about {
+    padding-bottom: 80px;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+  .about__title {
+    margin-bottom: 20px;
+  }
+
+  .about__content {
+    min-width: 200px;
+  }
+
+  .about__item-img {
+    margin-bottom: 6px;
+  }
+
+  .about__list {
+    gap: 10px;
+    padding-left: 49px;
   }
 }
 
