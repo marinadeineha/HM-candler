@@ -299,6 +299,31 @@ button {
   padding-bottom: 40px;
 }
 
+.course__item-img {
+  position: relative;
+}
+
+.courses__title {
+  font-size: 11px;
+  color: #fff;
+  background-color: #bea495;
+  font-family: "Yeseva One", sans-serif;
+}
+
+.courses__price {
+  font-size: 11px;
+  color: #fff;
+  background-color: #bea495;
+  font-family: "Yeseva One", sans-serif;
+}
+
+.courses__time {
+  font-size: 11px;
+  color: #fff;
+  background-color: #bea495;
+  font-family: "Yeseva One", sans-serif;
+}
+
 .footer {
   padding-top: 40px;
   padding-bottom: 35px;
