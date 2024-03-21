@@ -301,27 +301,52 @@ button {
 
 .course__item-img {
   position: relative;
+  font-size: 11px;
+  color: #fff;
+  font-family: "Yeseva One", sans-serif;
 }
 
 .courses__title {
-  font-size: 11px;
-  color: #fff;
-  background-color: #bea495;
-  font-family: "Yeseva One", sans-serif;
+  padding: 15px 15px 15px 10px;
+  left: 8px;
+  bottom: 163px;
 }
 
 .courses__price {
-  font-size: 11px;
-  color: #fff;
-  background-color: #bea495;
-  font-family: "Yeseva One", sans-serif;
+  padding: 19px 19px 18px 10px;
+  bottom: 16px;
+  right: -4px;
 }
 
 .courses__time {
-  font-size: 11px;
-  color: #fff;
+  padding: 7px 16px 7px 10px;
+  left: 8px;
+  bottom: 120px;
+}
+
+.courses__time span {
+  font-size: 10px;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.courses__title,
+.courses__price,
+.courses__time {
   background-color: #bea495;
-  font-family: "Yeseva One", sans-serif;
+  position: absolute;
+}
+
+.courses__item-title {
+  margin-bottom: 15px;
+}
+
+.courses__item-text {
+  font-size: 14px;
+  margin-bottom: 23px;
+}
+
+.courses__item-img {
+  margin-bottom: 28px;
 }
 
 .footer {
