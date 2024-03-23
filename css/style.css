@@ -306,6 +306,10 @@ button {
   font-family: "Yeseva One", sans-serif;
 }
 
+.course__content {
+  gap: 126px;
+}
+
 .courses__title {
   padding: 15px 15px 15px 10px;
   left: 8px;
@@ -375,6 +379,14 @@ button {
   gap: 15px;
 }
 
+/*                                                      MEDIA 1080px */
+
+@media (max-width: 1080px) {
+  .course__content {
+    gap: 77px;
+  }
+}
+
 /*                                                      MEDIA 1050px */
 
 @media (max-width: 1050px) {
@@ -384,6 +396,11 @@ button {
 
   .steps__item {
     gap: 31px;
+  }
+
+  .section__inner {
+    grid-template-columns: 290px auto;
+    gap: 0 10px;
   }
 }
 
@@ -421,17 +438,16 @@ button {
     padding-left: 20px;
   }
 
-  .section__inner {
-    grid-template-columns: 290px auto;
-    gap: 0 10px;
-  }
-
   .products__content {
     gap: 67px;
   }
 
   .section__text {
     font-size: 10px;
+  }
+
+  .course__text {
+    font-size: 14px;
   }
 }
 
@@ -458,6 +474,14 @@ button {
   .steps__item::before {
     font-size: 20px;
   }
+
+  .course__content {
+    gap: 30px;
+  }
+
+  .section__inner {
+    grid-template-columns: 200px auto;
+  }
 }
 
 /*                                                       MEDIA 900px */
@@ -479,16 +503,38 @@ button {
     background-size: cover;
   }
 
-  .section__inner {
-    grid-template-columns: 200px auto;
-  }
-
   .products__content {
     gap: 30px 16px;
   }
 
   .title {
     font-size: 29px;
+  }
+
+  .courses__item-img {
+    width: 195px;
+  }
+
+  .courses__title {
+    padding: 8px 10px 11px 6px;
+    left: 46px;
+    bottom: 148px;
+  }
+
+  .courses__time {
+    padding: 8px 11px 7px 4px;
+    left: 45px;
+    bottom: 109px;
+  }
+
+  .courses__price {
+    padding: 13px 15px 15px 8px;
+    bottom: 20px;
+    right: 34px;
+  }
+
+  .course__item-img {
+    font-size: 8px;
   }
 }
 
@@ -599,6 +645,45 @@ button {
   .button {
     font-size: 12px;
     padding: 11px 26px;
+  }
+
+  .course__text {
+    font-size: 10px;
+  }
+
+  .courses__item-text {
+    font-size: 10px;
+  }
+
+  .courses__item-img {
+    margin-bottom: 14px;
+  }
+
+  .courses__item-title {
+    margin-bottom: 4px;
+  }
+
+  .courses__item-text {
+    margin-bottom: 10px;
+  }
+
+  .course__content {
+    gap: 30px;
+  }
+
+  .courses__title {
+    left: -2px;
+    bottom: 138px;
+  }
+
+  .courses__time {
+    left: -2px;
+    bottom: 98px;
+  }
+
+  .courses__price {
+    bottom: 6px;
+    right: -13px;
   }
 }
 
@@ -767,7 +852,7 @@ button {
   }
 }
 
-/*                                                           MEDIA 360px */
+/*                                                           MEDIA 404px */
 
 @media (max-width: 404px) {
   .steps__text {
